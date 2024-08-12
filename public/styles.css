@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    /* background: #603f83; */
+    background: #c7d3d4;
+    font-family: cursive;
+}
+/* memes.ejs */
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px auto;
+    padding: 30px 30px;
+}
+.container h4{
+    color: #603f83;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+.container .my-memes{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin: 30px 0;
+    border:5px dotted #603f83;
+}
+.container .my-memes p{
+    font-weight: 600;
+    color: #603f83;
+    border: 1px solid #fff;
+    padding: 10px;
+    margin: 5px 30px;
+}
+.links{
+    display: flex;
+    justify-content:space-between;
+    gap: 20px;
+}
+a{
+    border: 1px solid #603f83;
+    border-radius: 5px;
+    padding: 10px;
+    color: #603f83;
+    text-decoration: none;
+}
+/* footer section */
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}
+/* landing page */
+.home{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin-top:10%;
+    /* border-bottom: 2px solid #603f83; */
+}
+.home div p{
+    margin-top: 30px;
+}
+.home .links a{
+    padding: 10px;
+    margin: 20px 0;
+    border-radius: 10px;
+    transition: .3s;
+}
+.home .links a:hover{
+    transition: .3s;
+    transform: scale(1.1);
+}
+.home .links a:nth-child(1){
+    border: 2px solid #603f83;
+}
+.home .links a:nth-child(2){
+    border: 4px double #603f83;
+}
+/* login page  & register page*/
+.card{
+    border: 2px groove #603f83;
+    padding: 30px;
+    margin: 10px;
+}
+.form-group{
+    color: #603f83;
+}
+.form-group input{
+    border: none;
+    outline: none;
+    width: auto;
+    margin: 10px auto;
+    padding: 10px;
+    color: #603f83;
+    border-radius: 7px;
+    font-family: cursive;
+}
+.card button{
+   padding: 10px;
+   border: 1px solid #603f83;
+   outline: none;
+   border-radius: 5px;
+}
+.box{
+    margin-top: 20px;
+}
+.box a{
+    background: #fff;
+    border: 1px solid #603f83;
+    border-radius: 5px;
+}
